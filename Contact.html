@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--This is a College Project -->
+
+<html lang="en">    
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="Description" content="Manorhamilton Tidy Town ">
+        <meta name="keywords" content="Services,History,Location">
+        <title> Tidy Towns </title>
+        <link rel="stylesheet" type="text/css" href="Styles/Style.css">
+        <link rel="icon" href="Images/Logo.jpg" type="Image/gif" sizes="16x16">
+        
+        <style>
+        nav ul  {
+            padding: 5px;
+            border-radius: 5px;
+            background-color: transparent;
+            text-align: center;
+            display: inline;
+        }
+
+        body{
+            font-family: sans-serif;
+            background-image: url(Images/ManorHamilton\ Castle.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 10px;}
+    
+        main{
+            margin: 15px 200px;
+            padding: 20px;
+            border: black solid 2px;
+            background: white;
+            min-height: 900;
+        }
+    
+        header p{
+            font-style: italic;
+            text-align: center;
+            font-weight: 900;}
+
+            .required{
+                font-weight: bold;
+                color: red;
+    
+            }
+            label{
+                float: left;
+                width: 112px;
+                padding-right: 10px;
+                text-align: right;
+            }
+            input{
+                margin-left: 1em;
+                margin-bottom: .5em;
+                width: 220px;
+            }
+    
+            input[type="checkbox"]{width: 15px;}
+            input[type="radio"]{width: 10px;}
+    
+            #button,#reset{
+                margin-top: .5em;
+                width: 8em;
+                background-color: purple;
+                border: 2px solid black;
+            }
+        
+    
+        </style>
+
+    </head>
+    <head>
+    <body>  
+        <header>
+            <h1> Manorhamilton Tidy Towns</h1>
+            <img class="fullWidthContent" src="Images/Logo.jpg" alt="Logo">
+           
+            <nav>
+               <ul>
+                <li> <a href="Index.html">Home</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li id="Active"><a href="Contact.html">Contact</a>
+                </li>
+    </head>
+    </body>
+    <body>
+        <header>
+            <p> Please Complete and Submit </p>
+        </header>
+        <main>
+            <section>
+                <h3>Please Enter the following information: </h3>
+                <form action="http:/foo.com" method="put">
+                    <label for="First Name">First Name:<span class="required">*</span></label>
+                    <input type="text" name="First Name" id="First Name" autofocus required><br>
+                    <label for="Last Name">Last Name:<span class="required">*</span></label>
+                    <input type="text" name="Last Name" id="Last Name" autofocus required><br>
+                    <label for="Email">Email:<span class="required">*</span></label>
+                    <input type="Email" name="Email" id="Email" required placeholder="test@example.com"><br>
+                    <label for="Contact Number">Contact Number:<span class="required">*</span></label>
+                    <input type="text" name="Contact No" id="Contact No" autofocus required><br>
+                    
+                    <label for="internet">Heard of Us:</label>
+                    <fieldset>
+                        <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                        <input type="checkbox" class="margin1" id="hear" name="Paper" value="Paper" checked> Paper <br>
+                        <input type="checkbox" class="margin1" id="hear" name="Friend" value="Friend" checked> Friend <br>
+                        <input type="checkbox" class="margin1" id="hear" name="Add" value="Add" checked> Others <br>
+                    </fieldset><br>
+                    <label for="message"> Query : </label>
+                    <textarea cols="40" rows="6"
+                    id="message" name="message" placeholder="Your message must be atleast 200 charaters " data-maxlength="200"></textarea><br>
+                    <input type="Submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                    </form>
+                    <p style="margin: 138px;"><span class="required" ></span> <em>Indicates a required field </em></p>
+    
+            </section>
+        </main>
+        </body>
+    </html>
+        <footer>
+            <center><p>Copyright 2022 Manorhamilton Tidy Towns</p></center>
+        </footer>
+    </body>
+
+</html>

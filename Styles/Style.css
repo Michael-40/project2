@@ -1,0 +1,41 @@
+nav{
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: transparent;
+    display: inline;
+    padding: 5px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+nav ul li :hover{ 
+    background-color: white;
+}
+#Active{
+    background-color: violet;
+}
+.Logo{
+    float: left; height: 60px; width: 70px;
+}
+aside{
+    border: 5px solid purple;
+    float: right;
+    width: 15%;
+    background-color: plum;
+}
+aside ul li{
+    list-style-type: none;
+}
+aside ul li a{
+    color: skyblue;
+    text-decoration: none;
+}
+
